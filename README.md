@@ -1,36 +1,101 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Doutor Agenda - Sistema de Gestão para Clínicas
 
-## Getting Started
+Um sistema SaaS moderno para gestão de clínicas médicas, desenvolvido durante o bootcamp da Full Stack Club. Este projeto implementa as melhores práticas de desenvolvimento fullstack, utilizando tecnologias atuais e um design system robusto.
 
-First, run the development server:
+## 🚀 Tecnologias
+
+- **Frontend:**
+
+  - Next.js 15
+  - React 19
+  - TypeScript
+  - Tailwind CSS
+  - Shadcn/ui (Componentes)
+
+- **Backend:**
+
+  - Next.js API Routes
+  - Drizzle ORM
+  - PostgreSQL
+
+- **Ferramentas de Desenvolvimento:**
+  - ESLint
+  - Prettier
+  - TypeScript
+  - Drizzle Kit
+
+## ✨ Funcionalidades
+
+- [Em desenvolvimento] Sistema de autenticação
+- [Em desenvolvimento] Dashboard administrativo
+- [Em desenvolvimento] Gestão de pacientes
+- [Em desenvolvimento] Agendamento de consultas
+- [Em desenvolvimento] Gestão de profissionais
+- [Em desenvolvimento] Relatórios e análises
+
+## 🛠️ Instalação
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/ruan-webdev/clinic-saas.git
+cd clinic-saas
+```
+
+2. Instale as dependências:
+
+```bash
+npm install
+```
+
+3. Configure as variáveis de ambiente:
+
+```bash
+# Crie um arquivo .env.local na raiz do projeto
+# Adicione as seguintes variáveis:
+DATABASE_URL="sua_url_do_postgres"
+```
+
+4. Execute as migrações do banco de dados:
+
+```bash
+npm run db:migrate
+```
+
+5. Inicie o servidor de desenvolvimento:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+O projeto estará disponível em `http://localhost:3000`
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## 📁 Estrutura do Projeto
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+```
+src/
+├── app/          # Rotas e páginas da aplicação
+├── components/   # Componentes reutilizáveis
+├── db/          # Configuração e schemas do banco de dados
+└── lib/         # Utilitários e configurações
+```
 
-## Learn More
+## 🤝 Contribuindo
 
-To learn more about Next.js, take a look at the following resources:
+1. Faça um fork do projeto
+2. Crie uma branch para sua feature (`git checkout -b feature/AmazingFeature`)
+3. Commit suas mudanças (`git commit -m 'Add some AmazingFeature'`)
+4. Push para a branch (`git push origin feature/AmazingFeature`)
+5. Abra um Pull Request
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## 📝 Licença
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Este projeto está sob a licença MIT. Veja o arquivo [LICENSE](LICENSE) para mais detalhes.
 
-## Deploy on Vercel
+## 👨‍💻 Autor
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+Ruan WebDev - [GitHub](https://github.com/ruan-webdev)
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+Desenvolvido com 💜 durante o bootcamp da Full Stack Club
